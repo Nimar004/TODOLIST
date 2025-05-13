@@ -1,0 +1,124 @@
+body{
+    background:linear-gradient(to right,#ff7e5f,#feb47b);
+         /*   learn*/
+    justify-content:center;     /*   learn*/
+    align-items:center;
+    height:100vh;
+    /* margin: auto; */
+}
+
+
+.container{
+    background:linear-gradient(to left,#ff7e5f,#feb47b);
+    padding:20px;
+    border:0.2px solid black;
+    border-radius:20px;
+    align-items: center;
+    justify-content: center;
+    width:450px;
+    height:fit-content;
+    margin: auto;
+    margin-top: 100px;
+    text-align:center;
+    box-shadow:0px 0px 0px rgba(0,0,0,0.1);   /*   learn*/
+}
+
+h2{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom:10px;
+
+}
+input{
+   width:40%;
+   padding:8px;
+   margin-left: 20px;
+   margin-right:-10%;
+   border:0.1px solid black;
+   border-radius:50px;
+   position:static;
+   margin-bottom: 15px;
+   nav-right: 2px;
+}
+.inputcontainer{
+    margin-left: 0px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    position: relative;
+ 
+    justify-content:center;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* input:hover{
+   
+    color:black;
+    font-style: bold;
+} */
+button{
+    padding:8px 12px;
+    border-radius:20px;
+    border:0.1px solid black;
+    color:white;
+    background-color:#feb47b;
+    cursor:pointer;
+}
+.add{
+    border-bottom-left-radius: 0px;
+    margin-left:-8px;
+    border-left: 1px solid black;
+    border-top-left-radius: 0px;
+
+}
+.add:hover{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+button:hover{
+    background-color: #ff7e5f;
+    color:rgb(79, 75, 75);
+    border-radius: 20px;
+
+
+}
+.list{
+    width: 50%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 20%;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    border-radius: 20px;
+    border:0.2px solid black;
+    margin: 20px;
+    
+}
+ol{
+    margin-top:0px;
+    margin-right: 15px;
+    text-align: left;
+
+    position: relative;
+    
+    
+}
+.upper{
+    position: relative;
+  width:100%;
+  height:20px;
+  top: -19px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #feb47b;
+  border-bottom: 0.1px solid black;
+}
+

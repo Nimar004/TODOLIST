@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="style.css" rel="stylesheet">
+<body>
+    <div class="container">
+        <h2 id="Toptext">📝ToDo list</h2>
+        <div class="inputcontainer">
+        
+        <input  class="inputtextbox" type="text" id="taskinput" placeholder="enter a task">
+        <button class="add" onclick="Addtask">Add</button>
+    </div>
+    
+    <div class="controls">
+        <button onclick="clearAll()">🗑️ Clear All</button>
+            <button onclick="sortTasks()">Sort</button>
+            <button onclick="resetInput">♺ Reset Input</button>
+</div>
+<div class="list">
+    <div class="upper">
+<h3 >List of tasks</h3>
+</div>
+    <ol  id="taskList">
+    </ol>
+</div>
+</div>
+</div>
+<section>
+
+</section>
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
